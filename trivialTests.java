@@ -1,8 +1,12 @@
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.junit.runners.JUnit4;
 import static org.junit.Assert.*;
 import org.junit.Test;
 import java.util.*;
 
-public class trivials {
+@RunWith(JUnit4.class)
+public class trivialTests {
 	//These should all pass
 	@Test
 	public void DoubleZeroEqualsIntZero(){

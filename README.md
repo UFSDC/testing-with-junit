@@ -8,13 +8,13 @@ This is part of a larger tutorial, available [here](http://ufsdc.github.io/artic
 
 ```bash
 
-	javac -cp "jar/*" *.java
+	javac -cp ":jar/*" *.java
 ```
 
-###Run
+###Run (on Linux)
 
 ```bash
 
-	java -cp "jar/*" org.junit.runner.JUnitCore trivials
-	java -cp "jar/*" org.junit.runner.JUnitCore mmmTest
+	java -cp ":jar/*" org.junit.runner.JUnitCore trivials
+	java -cp ":jar/*" org.junit.runner.JUnitCore mmmTest
 ```
